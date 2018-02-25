@@ -370,8 +370,7 @@ let struct = {
 
 // ---- instanciate robots ----
 let dancers = [];
-
-for (let i = 0; i < 2; i++) {
+for (let i = 0; i < 5; i++) {
 	dancers.push(
 		new Robot(
 			i * 360 / 7,
